@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PrateekSingh</string>
+    <string name="pluse">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+</resources>
