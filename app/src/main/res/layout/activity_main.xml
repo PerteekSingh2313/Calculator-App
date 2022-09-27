@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:ems="10"
-        android:hint="Enter Secand Value"
+        android:hint="Enter Second Value"
         android:inputType="number"
         android:padding="10dp" />
 
