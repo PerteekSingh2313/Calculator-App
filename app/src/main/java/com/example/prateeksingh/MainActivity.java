@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(!(TextUtils.isEmpty(etFistValue.getText().toString()) && TextUtils.isEmpty(etSecondValue.getText().toString()))){
+                if(!(TextUtils.isEmpty(etFistValue.getText().toString()) || TextUtils.isEmpty(etSecondValue.getText().toString()))){
                     int firstValue,secondValue,ans;
                     firstValue = Integer.parseInt(etFistValue.getText().toString());
                     secondValue = Integer.parseInt(etSecondValue.getText().toString());
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 int firstValue,secondValue,ans;
 
-                if(!(TextUtils.isEmpty(etFistValue.getText().toString()) && TextUtils.isEmpty(etSecondValue.getText().toString()))){
+                if(!(TextUtils.isEmpty(etFistValue.getText().toString()) || TextUtils.isEmpty(etSecondValue.getText().toString()))){
                     firstValue = Integer.parseInt(etFistValue.getText().toString());
                     secondValue = Integer.parseInt(etSecondValue.getText().toString());
                     ans = firstValue - secondValue;
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         multiply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(!(TextUtils.isEmpty(etFistValue.getText().toString()) && TextUtils.isEmpty(etSecondValue.getText().toString()))){
+                if(!(TextUtils.isEmpty(etFistValue.getText().toString()) || TextUtils.isEmpty(etSecondValue.getText().toString()))){
                     int firstValue,secondValue,ans;
                     firstValue = Integer.parseInt(etFistValue.getText().toString());
                     secondValue = Integer.parseInt(etSecondValue.getText().toString());
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         divide.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(!(TextUtils.isEmpty(etFistValue.getText().toString()) && TextUtils.isEmpty(etSecondValue.getText().toString()))){
+                if(!(TextUtils.isEmpty(etFistValue.getText().toString()) || TextUtils.isEmpty(etSecondValue.getText().toString()))){
                     int firstValue,secondValue;
                     double ans;
                     firstValue = Integer.parseInt(etFistValue.getText().toString());
